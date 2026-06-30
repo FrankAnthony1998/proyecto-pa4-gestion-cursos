@@ -104,7 +104,7 @@ Crear el archivo `.env.local` indicado arriba, luego:
 ```bash
 npm run dev
 ```
-Next.js quedará disponible en `http://localhost:3002` (o el puerto que indique la terminal).
+Next.js quedará disponible en `http://localhost:3002` (puerto fijo configurado en `package.json`).
 
 ### 5. Build de producción (verificación)
 ```bash
