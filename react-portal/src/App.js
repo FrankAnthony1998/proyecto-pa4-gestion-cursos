@@ -1,19 +1,21 @@
-import { useEffect, useState } from "react";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import Login from './pages/Login';
+import PrivateRoute from './routes/PrivateRoute';
+import Cursos from './pages/Cursos';
 
 function App() {
-  const [mensaje, setMensaje] = useState("Cargando...");
-
-  useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}/`)
-      .then((res) => res.json())
-      .then((data) => setMensaje(data.message))
-      .catch((err) => setMensaje("Error: " + err.message));
-  }, []);
-
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-2xl font-bold text-gray-800">{mensaje}</h1>
-    </div>
+    <Router>
+      <AuthProvider>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Navigate to="/login" replace />} />
+          <Route path="/cursos" element={<PrivateRoute><Cursos /></PrivateRoute>} />
+        </Routes>
+      </AuthProvider>
+    </Router>
   );
 }
 
