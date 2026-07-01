@@ -149,7 +149,12 @@ Luego crear un Pull Request hacia `main` en GitHub para revisión del equipo.
 | Gustavo Arturo Ugarte Torres | 100% |
 | Aldair Casafranca | 100% |
 
-# Evidencias
+## Evidencias
+<img width="1576" height="766" alt="image" src="https://github.com/user-attachments/assets/98cde4d9-ab54-469f-9d63-d683b8140d62" />
+<img width="1574" height="763" alt="image" src="https://github.com/user-attachments/assets/705ecbf8-fd9f-49c1-8ecb-796a392c96b1" />
+
+
+
 
 
 ## Video de sustentación
