@@ -45,6 +45,9 @@ const Cursos = () => {
     <div className="cursos-container">
       <header className="cursos-header">
         <h1>Bienvenido, {user?.email}</h1>
+        <button className="curso-detalle-btn" onClick={() => navigate("/estudiante")}>
+  Volver a mi panel
+</button>
         <button className="logout-btn" onClick={handleLogout}>
           Cerrar sesión
         </button>
