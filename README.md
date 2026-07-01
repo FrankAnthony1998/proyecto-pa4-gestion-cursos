@@ -2,15 +2,7 @@
 
 Proyecto académico (PA4 - Programación Web II, ISIL) que integra un portal del estudiante en **React**, un módulo público en **Next.js**, y una API REST en **Node.js + Express + MongoDB** (desarrollada en PA2), con autenticación basada en **JWT**.
 
-## Integrantes
 
-| Nombre | Rol en el proyecto |
-|--------|---------------------|
-| Frank Anthony | Configuración base, integración React + API, autenticación/JWT |
-| Diego Alonso Josue García Díaz | Implementación del catálogo de cursos en React |
-| Integrante 3 | |
-| Integrante 4 | |
-| Integrante 5 | |
 
 ## Descripción del proyecto
 
@@ -34,14 +26,15 @@ El sistema permite:
 - Fetch API para consumo de endpoints
 
 **Frontend - Módulo público**
-- Next.js (Pages Router)
-- Tailwind CSS
+- Next.js (App Router) + TypeScript
+- CSS Modules
+- Axios
 
 ## Estructura del repositorio
 proyecto-pa4/
 ├── api/                  # API REST (Node + Express + MongoDB) 
 ├── react-portal/         # Portal del estudiante (React + Tailwind)
-├── nextjs-publico/       # Módulo público (Next.js + Tailwind)
+├── next-public/          # Módulo público (Next.js App Router + TypeScript)
 └── README.md
 
 ## Variables de entorno
@@ -54,7 +47,8 @@ JWT_SECRET=una_clave_secreta_muy_larga_y_segura
 ### `react-portal/.env`
 REACT_APP_API_URL=http://localhost:3000
 
-### `nextjs-publico/.env.local`
+### `next-public/.env.local`
+PORT=3002
 NEXT_PUBLIC_API_URL=http://localhost:3000
 
 > Cada quien debe crear estos archivos `.env` localmente; no se suben datos sensibles al repositorio.
@@ -98,14 +92,14 @@ React tomará automáticamente el puerto `3001` (porque el `3000` ya está ocupa
 ### 4. Levantar el módulo público (Next.js)
 En otra terminal:
 ```bash
-cd nextjs-publico
-npm install
+cd next-public
+pnpm install
 ```
 Crear el archivo `.env.local` indicado arriba, luego:
 ```bash
-npm run dev
+pnpm dev
 ```
-Next.js quedará disponible en `http://localhost:3002` (puerto fijo configurado en `package.json`).
+Next.js quedará disponible en `http://localhost:3002` (puerto tomado de la variable `PORT` en `.env.local`).
 
 ### 5. Build de producción (verificación)
 ```bash
@@ -114,8 +108,8 @@ cd react-portal
 npm run build
 
 # Next.js
-cd ../nextjs-publico
-npm run build
+cd ../next-public
+pnpm build
 ```
 Ambos comandos deben ejecutarse sin errores críticos.
 
@@ -141,11 +135,10 @@ Luego crear un Pull Request hacia `main` en GitHub para revisión del equipo.
 |---|---|
 | Frank Anthony | 100% |
 | Diego Alonso Josue García Díaz |  100%|
-| Integrante 3 | — |
-| Integrante 4 | — |
+| Gustavo Arturo Ugarte Torres | 100% |
+| Aldair Casafranca | 100% |
 | Integrante 5 | — |
 
 ## Evidencias
-
 
 ## Video de sustentación

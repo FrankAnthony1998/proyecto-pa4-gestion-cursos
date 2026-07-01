@@ -1,0 +1,45 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.headerInner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #52525b;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #18181b;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #71717a;
+}
