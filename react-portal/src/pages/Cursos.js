@@ -29,13 +29,6 @@ const Cursos = () => {
         >
           Cerrar sesión
         </button>
-
-        <div className="mt-8">
-          <p className="text-gray-600">
-            Esta es una vista protegida. Si volvías a `/login` sin estar logueado, 
-            serías redirigido automáticamente.
-          </p>
-        </div>
       </div>
     </div>
   );
