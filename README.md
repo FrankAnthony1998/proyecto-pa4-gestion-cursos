@@ -31,25 +31,36 @@ El sistema permite:
 - Axios
 
 ## Estructura del repositorio
+```
 proyecto-pa4/
-├── api/                  # API REST (Node + Express + MongoDB) 
+├── api/                  # API REST (Node + Express + MongoDB)
 ├── react-portal/         # Portal del estudiante (React + Tailwind)
 ├── next-public/          # Módulo público (Next.js App Router + TypeScript)
 └── README.md
+```
 
 ## Variables de entorno
 
 ### `api/.env`
+
+```env
 PORT=3000
 MONGO_URI=mongodb://localhost:27017/gestion_cursos
 JWT_SECRET=una_clave_secreta_muy_larga_y_segura
+```
 
 ### `react-portal/.env`
+
+```env
 REACT_APP_API_URL=http://localhost:3000
+```
 
 ### `next-public/.env.local`
+
+```env
 PORT=3002
 NEXT_PUBLIC_API_URL=http://localhost:3000
+```
 
 > Cada quien debe crear estos archivos `.env` localmente; no se suben datos sensibles al repositorio.
 
@@ -137,8 +148,8 @@ Luego crear un Pull Request hacia `main` en GitHub para revisión del equipo.
 | Diego Alonso Josue García Díaz |  100%|
 | Gustavo Arturo Ugarte Torres | 100% |
 | Aldair Casafranca | 100% |
-| Integrante 5 | — |
 
-## Evidencias
+
 
 ## Video de sustentación
+https://youtu.be/m-UqPkxUKB0
