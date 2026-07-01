@@ -7,7 +7,7 @@ Proyecto académico (PA4 - Programación Web II, ISIL) que integra un portal del
 | Nombre | Rol en el proyecto |
 |--------|---------------------|
 | Frank Anthony | Configuración base, integración React + API, autenticación/JWT |
-| Integrante 2 | Implementación del catálogo de cursos en React |
+| Diego Alonso Josue García Díaz | Implementación del catálogo de cursos en React |
 | Integrante 3 | |
 | Integrante 4 | |
 | Integrante 5 | |
@@ -140,7 +140,7 @@ Luego crear un Pull Request hacia `main` en GitHub para revisión del equipo.
 | Integrante | Aporte |
 |---|---|
 | Frank Anthony | 100% |
-| Diego García |  100%|
+| Diego Alonso Josue García Díaz |  100%|
 | Integrante 3 | — |
 | Integrante 4 | — |
 | Integrante 5 | — |
