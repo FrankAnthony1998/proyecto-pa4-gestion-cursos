@@ -17,7 +17,7 @@ const Login = () => {
 
     try {
       await login(email, password);
-      navigate('/cursos');
+      navigate('/estudiante');
     } catch (err) {
       setError(err.message || 'Error al iniciar sesión');
     } finally {
