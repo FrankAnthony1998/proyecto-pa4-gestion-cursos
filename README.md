@@ -152,6 +152,10 @@ Luego crear un Pull Request hacia `main` en GitHub para revisión del equipo.
 ## Evidencias
 <img width="1576" height="766" alt="image" src="https://github.com/user-attachments/assets/98cde4d9-ab54-469f-9d63-d683b8140d62" />
 <img width="1574" height="763" alt="image" src="https://github.com/user-attachments/assets/705ecbf8-fd9f-49c1-8ecb-796a392c96b1" />
+<img width="1573" height="753" alt="image" src="https://github.com/user-attachments/assets/26c1b035-77fe-4f74-b259-01aae49e35aa" />
+<img width="1578" height="762" alt="image" src="https://github.com/user-attachments/assets/dde1f1bb-2ff2-413e-b67b-7d694da5bb8d" />
+
+
 
 
 
