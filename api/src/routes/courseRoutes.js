@@ -12,4 +12,8 @@ router.post("/courses", verifyToken, verifyRole("admin"), createCourse);
 router.get("/courses", getCourses);
 router.get("/courses/:id", getCourseById);
 
+// Alias público de solo lectura, pensado para el módulo público en Next.js
+router.get("/ofertas", getCourses);
+router.get("/ofertas/:id", getCourseById);
+
 module.exports = router;

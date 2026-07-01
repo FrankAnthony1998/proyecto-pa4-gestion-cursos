@@ -1,0 +1,80 @@
+.page {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 2rem;
+}
+
+.status {
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #52525b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cardDescription {
+  font-size: 0.9375rem;
+  color: #52525b;
+  margin: 0;
+  flex: 1;
+}
+
+.cardTeacher {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.cardCategory {
+  align-self: flex-start;
+  border-radius: 999px;
+  background: #f4f4f5;
+  padding: 0.125rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #52525b;
+}
+
+.cardLink {
+  margin-top: 0.75rem;
+  text-align: center;
+  border-radius: 999px;
+  background: #171717;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  background: #383838;
+}

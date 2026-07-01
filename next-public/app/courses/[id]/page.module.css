@@ -1,0 +1,54 @@
+.page {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.notFound {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.category {
+  display: inline-block;
+  border-radius: 999px;
+  background: #f4f4f5;
+  padding: 0.125rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #52525b;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+
+.description {
+  font-size: 1.0625rem;
+  color: #52525b;
+  margin: 0 0 1.5rem;
+}
+
+.teacher {
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #52525b;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  color: #18181b;
+}
