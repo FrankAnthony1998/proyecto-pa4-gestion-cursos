@@ -1,0 +1,142 @@
+.cursos-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+}
+
+.cursos-status {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  color: #4b5563;
+}
+
+.cursos-error {
+  color: #dc2626;
+}
+
+.cursos-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cursos-header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
+
+.cursos-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+.cursos-titulo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #111827;
+}
+
+.cursos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.curso-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.curso-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.curso-nombre {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1d4ed8;
+  margin: 0;
+}
+
+.curso-descripcion {
+  font-size: 0.92rem;
+  color: #4b5563;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.curso-profesor {
+  font-size: 0.88rem;
+  color: #374151;
+  margin: 0;
+}
+
+.curso-categoria {
+  align-self: flex-start;
+  background-color: #eef2ff;
+  color: #4338ca;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 480px) {
+  .cursos-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+.curso-detalle-btn {
+  margin-top: 0.8rem;
+  align-self: flex-start;
+  background-color: #1d4ed8;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.curso-detalle-btn:hover {
+  background-color: #1e40af;
+  transform: translateY(-1px);
+}
